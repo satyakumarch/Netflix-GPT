@@ -1,8 +1,10 @@
 # Getting Started with Create React App
 -Create React App
 -Configured Tailwind css
+-Routing 
 -Header 
 -Login Form
+-From validation
 
 
 
@@ -21,3 +23,4 @@ Browser (After authentication)
 # NetflixGPT
   -Search bar
   -movie suggestions
+
