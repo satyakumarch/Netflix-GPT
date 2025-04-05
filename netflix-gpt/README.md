@@ -5,11 +5,16 @@
 -Header 
 -Login Form
 -From validation
+-useRef Hook
+-Firebase Setup
+-Deploying our app to production
+-create Sign up User Account
+
 
 
 
 # Features
--Login/Signup
+-Login/Sign up
    -Sign In/Sign up form
    -redirect to Browser Page
 Browser (After authentication)
