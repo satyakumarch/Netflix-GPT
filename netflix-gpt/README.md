@@ -11,7 +11,10 @@
 -create Sign up User Account
 -Implemented Sign In user Id
 - Created Redux Store with userSlice 
-
+-IMplemented Sign out
+-Add hardcoded valuees to the constant file
+-Register TMDB API $ create an app & access token
+-Get Data from TMDB now playing movies list API
 
 # Features
 -Login/Sign up

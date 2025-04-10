@@ -163,6 +163,7 @@ import { auth } from '../utils/Firebase'
 import { useNavigate } from 'react-router-dom'
 import { useDispatch } from 'react-redux'; // Uncomment this
 import { addUser } from "../utils/userSlice.js";
+import { AVATAR } from '../utils/constant.js';
 
 const Login = () => {
   const [isSignInForm, setIsSignInForm] = useState(true);
@@ -191,7 +192,7 @@ const Login = () => {
           const user = userCredential.user;
           updateProfile(user, {
             displayName: name.current.value, 
-            photoURL: "https://avatars.githubusercontent.com/u/118563873?v=4",
+            photoURL:AVATAR,
           })
           .then(() => {
             const {uid, email, displayName, photoURL} = auth.currentUser;
