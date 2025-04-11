@@ -24,7 +24,7 @@
 // export default MainContainer
 
 import { useSelector } from 'react-redux';
-import VideoTittle from './VideoTitle';
+import VideoTitle from './VideoTitle';
 import VideoBackground from './VideoBackground';
 
 const MainContainer = () => {
@@ -33,15 +33,16 @@ const MainContainer = () => {
   // Don't render anything if movies aren't loaded yet
   if (!movies || movies.length === 0) return null;
   
-  const mainMovie = movies[2];
+  const mainMovie = movies[0];
   console.log(mainMovie);
   
   const { original_title, overview, id } = mainMovie;
   
   return (
     <div>
-      <VideoTittle title={original_title} overView={overview} />
-      <VideoBackground movieId={id} />
+      {/* <VideoTitle title={original_title} overView={overview} /> */}
+      <VideoTitle original_title={original_title} overView={overview} />
+      <VideoBackground id={id}/>
     </div>
   );
 }

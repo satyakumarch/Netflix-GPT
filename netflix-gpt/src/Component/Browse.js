@@ -8,9 +8,8 @@ const Browse = () => {
   return (
     <div>
       <Header/>
-      <MainContainer/>
       <SecondaryContainer/>
-      <VideoTitle/>
+      <MainContainer/>
     </div>
   )
 }

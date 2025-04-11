@@ -31,4 +31,5 @@ Browser (After authentication)
 # NetflixGPT
   -Search bar
   -movie suggestions
+  1:33
 
