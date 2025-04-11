@@ -7,7 +7,6 @@ const Browse = () => {
  usesNowPlayingMovie();
   return (
     <div>
-      
       <Header/>
       <MainContainer/>
       <SecondaryContainer/>
